@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_snow1.script1</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>script1</name>
+        <script><![CDATA[var script1 = Class.create();
+script1.prototype = {
+    initialize: function() {
+    },
+
+    type: 'script1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-29 00:37:29</sys_created_on>
+        <sys_id>9da2b9ce13da3300027879d96144b0dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>script1</sys_name>
+        <sys_package display_value="snow1" source="x_snc_snow1">1d52f18e13da3300027879d96144b0d0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="snow1">1d52f18e13da3300027879d96144b0d0</sys_scope>
+        <sys_update_name>sys_script_include_9da2b9ce13da3300027879d96144b0dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-29 00:37:29</sys_updated_on>
+    </sys_script_include>
+</record_update>
